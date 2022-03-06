@@ -1,0 +1,22 @@
+[package]
+name = "verstatus"
+version = "0.1.0"
+authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
+edition = "2021"
+description = "Desktop status bar client for i3bar and swaybar"
+license = "0BSD"
+homepage = "https://github.com/stephaneyfx/verstatus"
+repository = "https://github.com/stephaneyfx/verstatus.git"
+keywords = ["status", "bar", "i3bar", "i3"]
+
+[dependencies]
+brightness = "0.4.1"
+chrono = "0.4.19"
+desktus = { git = "https://github.com/stephaneyfx/desktus.git", branch = "master" }
+futures = "0.3.21"
+futuristic = "0.4.0"
+palette = "0.6.0"
+serde = { version = "1.0.136", features = ["derive"] }
+sysinfo = "0.23.4"
+tokio = { version = "1.17.0", features = ["full"] }
+tokio-stream = { version = "0.1.8", features = ["io-util", "sync", "time"] }
