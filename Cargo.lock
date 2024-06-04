@@ -418,7 +418,7 @@ dependencies = [
 [[package]]
 name = "desktus"
 version = "0.6.0"
-source = "git+https://github.com/stephaneyfx/desktus.git?branch=master#a400cbb96c491daff21f94fad650f6d2b34dbb4d"
+source = "git+https://github.com/stephaneyfx/desktus.git?branch=master#36fd02d6aec73a9cf316bf2a6e61ecc124fd9f76"
 dependencies = [
  "base64",
  "battery",

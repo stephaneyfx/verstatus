@@ -1,6 +1,4 @@
-// Copyright (C) 2022 Stephane Raux. Distributed under the 0BSD license.
-
-#![deny(warnings)]
+// Copyright (C) 2022-2024 Stephane Raux. Distributed under the 0BSD license.
 
 use brightness::Brightness;
 use chrono::Local;
